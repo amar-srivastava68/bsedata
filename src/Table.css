@@ -1,0 +1,31 @@
+.custom-card {
+  margin: 0 auto; /* Center horizontally */
+  width: 500px; /* Adjust width as needed */
+  border: 5px solid black;
+  border-radius: 4px;
+  padding: 16px;
+}
+
+.card-title, .card-subtitle {
+  font-weight: bold;
+  display: inline-block; /* Display side-by-side */
+  margin-bottom: 8px;
+}
+
+.card-title {
+  float: left; /* Left align title */
+}
+
+.card-subtitle {
+  float: right; /* Right align subtitle */
+}
+
+.newssub {
+  font-style: italic;
+  color: #007bff;
+  margin-bottom: 8px;
+}
+
+.card-text {
+  margin-bottom: 16px;
+}
